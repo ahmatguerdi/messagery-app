@@ -1,0 +1,33 @@
+body{
+    margin: 2%; overflow-x: hidden;
+}
+
+#profils{
+    margin: auto; padding: 0;
+}
+
+#etat{
+    color: rgb(20, 218, 20);
+}
+
+@media screen and (max-width: 1853px) {
+  #etat {
+    padding-left: 7%;
+  }
+}
+
+@media screen and (min-width: 1855px) {
+    #etat{
+        padding: -20%;
+    }
+}
+
+#nom{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width:1853px) {
+    #span2{
+       padding-left: 3%;
+    }
+}
