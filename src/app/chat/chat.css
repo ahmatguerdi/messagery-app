@@ -1,0 +1,138 @@
+
+.chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 90 auto;;
+    min-height: 80vh;
+    border-radius: 20px;
+    background-color: white;
+    /* margin-top: -760px; */
+}
+
+.chat-header {
+    padding: 20px;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 15px;
+    color: #555;
+    font-size: 18px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-name {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.contact-status {
+    color: #28a745;
+    font-size: 14px;
+}
+
+.chat-messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+}
+
+.message-date {
+    text-align: center;
+    color: #6c757d;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.message.received {
+    justify-content: flex-start;
+}
+
+.message.sent {
+    justify-content: flex-end;
+}
+
+.message-bubble {
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 18px;
+    position: relative;
+}
+
+.received .message-bubble {
+    background-color: white;
+    border: 1px solid #e9ecef;
+    border-bottom-left-radius: 4px;
+}
+
+.sent .message-bubble {
+    background-color: #007bff;
+    color: white;
+    border-bottom-right-radius: 4px;
+}
+
+.message-time {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.sent .message-time {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+.input-field {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 0 8px;
+    outline: none;
+}
+
+.chat-icon {
+    font-size: 20px;
+    color: #888;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.chat-icon:hover {
+    color: #007bff;
+}
+#style{
+    margin-left: 30vh;
+}
