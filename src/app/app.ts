@@ -11,10 +11,13 @@ import { Contacts } from './contacts/contacts';
 // import { Keyboard } from './keyboard/keyboard';
 
 import {Stupename} from './stupename/stupename';
+import { Message } from "./message/message";
+import { Onboarding } from "./onboarding/onboarding";
 
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet,Stupename, Icons, Contacts],
+  // imports: [RouterOutlet, Stupename, Icons, Message, Onboarding],
   standalone: true,
   templateUrl: './app.html',
   styleUrl: './app.css'
