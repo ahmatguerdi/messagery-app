@@ -1,18 +1,21 @@
-.otp-container {
+.container {
   text-align: center;
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
   margin-top: 50px;
 }
 
-.otp-container h2 {
+.container h1 {
+  font-size: 1.7rem;
   margin-bottom: 10px;
-  font-size: xx-large;
 }
 
-.otp-container p {
-  color: #666;
-  margin-bottom: 20px;
-   font-size: 1.2rem;
+.container p {
+ padding-top: 1%;
+  font-size: 1.2rem;
+  margin-left: -9%;
+  color: #807e7e;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .otp-inputs {
@@ -38,10 +41,4 @@
 .resent-container {
   margin-top: 32px;
   text-align: center;
-}
-
-.resent-text {
-  color: #888;
-  font-size: 1.1rem;
-  margin-right: 6px;
 }
