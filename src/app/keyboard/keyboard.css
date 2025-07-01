@@ -5,17 +5,18 @@
 }
 
 .container h1 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
 .container p {
  padding-top: 1%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-left: -9%;
   color: #807e7e;
   margin-bottom: 30px;
   text-align: center;
+  margin-left: 5%;
 }
 
 .otp-inputs {
@@ -33,6 +34,7 @@
   border-radius: 50%;
   outline: none;
   transition: border-color 0.3s;
+  margin-left: 5%;
 }
 
 .otp-inputs input:focus {
@@ -41,4 +43,12 @@
 .resent-container {
   margin-top: 32px;
   text-align: center;
+}
+.code-message {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.resend-link {
+  color: #282a2c;
+  text-decoration: none;
 }
