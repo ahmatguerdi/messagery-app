@@ -47,7 +47,7 @@ button {
   border-radius: 8px;
   cursor: pointer;
   width: 100%;         /* ✅ Le bouton prend toute la largeur */
-
+}
 
 button:hover {
   background-color: #45a049;
