@@ -16,7 +16,7 @@ import { Onboarding } from "./onboarding/onboarding";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Stupename, Icons, Contacts],
+  imports: [RouterOutlet],
   // imports: [RouterOutlet, Stupename, Icons, Message, Onboarding],
   standalone: true,
   templateUrl: './app.html',
