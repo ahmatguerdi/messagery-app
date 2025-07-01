@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { Icons } from "../icons/icons";
 
 @Component({
   selector: 'app-my-profil',
-  imports: [],
+  imports: [Icons],
   templateUrl: './my-profil.html',
   styleUrl: './my-profil.css'
 })
