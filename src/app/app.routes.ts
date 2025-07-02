@@ -6,6 +6,8 @@ import { PhoneNumber } from './phone-number/phone-number';
 import { Icons } from './icons/icons';
 import { Stupename } from './stupename/stupename';
 import { Message } from './message/message';
+import { Chat } from './chat/chat';
+import { Contacts } from './contacts/contacts';
 
 export const routes: Routes = [
     {path: 'my-profil', component: MyProfil},
@@ -15,4 +17,6 @@ export const routes: Routes = [
     {path: 'icons', component:Icons},
     {path: 'stupename', component:Stupename},
     {path: 'message', component:Message},
+    {path: 'chat', component:Chat},
+    {path: 'contacts', component:Contacts},
 ];

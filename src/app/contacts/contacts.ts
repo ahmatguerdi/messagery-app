@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { Icons } from "../icons/icons";
 
 @Component({
   selector: 'app-contacts',
-  imports: [],
+  imports: [RouterLink, Icons],
   templateUrl: './contacts.html',
   styleUrl: './contacts.css'
 })
