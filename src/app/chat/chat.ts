@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { Icons } from "../icons/icons";
 
 @Component({
   selector: 'app-chat',
-  imports: [],
+  imports: [Icons],
   templateUrl: './chat.html',
   styleUrl: './chat.css'
 })
